@@ -1,5 +1,5 @@
 ARG repository
-FROM ${repository}:9.1-runtime-ubuntu16.04
+FROM ${repository}:9.1-runtime
 LABEL maintainer "NVIDIA CORPORATION <cudatools@nvidia.com>"
 
 ENV CUDNN_VERSION 7.1.2.21

@@ -1,5 +1,5 @@
 ARG repository
-FROM ${repository}:9.1-base-ubuntu16.04
+FROM ${repository}:9.1-base
 LABEL maintainer "NVIDIA CORPORATION <cudatools@nvidia.com>"
 
 ENV NCCL_VERSION 2.2.12
